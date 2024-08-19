@@ -1,3 +1,9 @@
-langchain
-langchain_aws
+# Create a new virtual environment
+python -m venv venv
+source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+
+# Install your packages again
+pip install langchain langchain_aws  # Add other packages as needed
+
+# Generate a new requirements.txt
 pip freeze > requirements.txt
